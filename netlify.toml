@@ -1,2 +1,4 @@
-[functions]
-  directory = "netlify/functions"
+/
+  netlify.toml
+  netlify/functions/submit-to-airtable.js
+  index.html
