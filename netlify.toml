@@ -1,4 +1,7 @@
-/
-  netlify.toml
-  netlify/functions/submit-to-airtable.js
-  index.html
+[build]
+  publish = "."
+  functions = "netlify/functions"
+  command = ""
+
+[functions]
+  node_bundler = "esbuild"
